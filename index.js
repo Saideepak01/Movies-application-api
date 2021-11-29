@@ -3,7 +3,7 @@ import express from "express"; // new way package.json file type: module
 import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
 import { moviesRouter } from "./routes/movies.js";
-import cors from "cors"
+import cors from "cors";
 app.use(cors()); //3rd party middleware to give access to request from any origin
 
 dotenv.config();
