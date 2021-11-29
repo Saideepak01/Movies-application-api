@@ -1,0 +1,9 @@
+node_modules
+.env
+welcome.js
+file.js
+os.js
+msg.txt
+names.txt
+allNames.txt
+backups
