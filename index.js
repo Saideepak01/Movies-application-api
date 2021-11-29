@@ -9,8 +9,8 @@ dotenv.config();
 //dotenv puts all key value pairs in process.env  
 
 const app = express();
-const PORT = 9000;
-const MONGO_URL = process.env.PORT || process.env.MONGO_URL;
+const PORT = process.env.PORT || 9000;
+const MONGO_URL = process.env.MONGO_URL;
 
 async function createConnection() {
   const client = new MongoClient(MONGO_URL);
